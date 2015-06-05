@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ninja.mattburgess</groupId>
+  <artifactId>spoon-gremlin-kar</artifactId>
+  <version>6.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.karaf.tooling</groupId>
+        <artifactId>features-maven-plugin</artifactId>
+        <version>2.3.7</version>
+        <executions>
+          <execution>
+            <id>create-kar</id>
+            <goals>
+              <goal>create-kar</goal>
+            </goals>
+            <configuration>
+              <featuresFile>src/main/resources/gremlin-feature.xml</featuresFile>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
