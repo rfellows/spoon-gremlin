@@ -98,6 +98,12 @@
       <artifactId>kettle-ui-swt</artifactId>
       <version>${dependency.pentaho-kettle.kettle-core.version}</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>  <!-- This causes errors while resolving the parent POM, and is provided, so exclude -->
+          <groupId>pentaho</groupId>
+          <artifactId>pentaho-capability-manager</artifactId>
+        </exclusion>
+      </exclusions> 
     </dependency>
     <dependency>
       <groupId>org.eclipse</groupId>
