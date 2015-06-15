@@ -1,6 +1,6 @@
 package com.pentaho.metaverse.gremlin.views;
 
-import com.pentaho.dictionary.DictionaryConst;
+import org.pentaho.dictionary.DictionaryConst;
 import com.pentaho.metaverse.gremlin.GremlinConsoleUtils;
 import com.pentaho.metaverse.gremlin.event.GremlinConsoleEvent;
 import com.tinkerpop.blueprints.Graph;

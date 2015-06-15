@@ -1,8 +1,8 @@
 package com.pentaho.metaverse.gremlin;
 
-import com.pentaho.dictionary.DictionaryConst;
-import com.pentaho.dictionary.DictionaryHelper;
-import com.pentaho.metaverse.api.messages.Messages;
+import org.pentaho.dictionary.DictionaryConst;
+import org.pentaho.dictionary.DictionaryHelper;
+import org.pentaho.metaverse.api.messages.Messages;
 import com.tinkerpop.blueprints.Edge;
 import com.tinkerpop.blueprints.Vertex;
 import org.eclipse.swt.layout.FormAttachment;

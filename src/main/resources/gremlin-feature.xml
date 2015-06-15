@@ -1,7 +1,7 @@
 <features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 
   <feature name="spoon-gremlin" version="1.0">
-    <feature>pentaho-metaverse-ee</feature>
+    <feature>pentaho-metaverse</feature>
     <bundle>mvn:ninja.mattburgess/spoon-gremlin/6.0-SNAPSHOT</bundle>
   </feature>
 

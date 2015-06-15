@@ -1,7 +1,7 @@
 package com.pentaho.metaverse.gremlin.views;
 
 import com.google.common.collect.Lists;
-import com.pentaho.dictionary.DictionaryConst;
+import org.pentaho.dictionary.DictionaryConst;
 import com.pentaho.metaverse.gremlin.GremlinConsoleUtils;
 import com.tinkerpop.blueprints.Direction;
 import com.tinkerpop.blueprints.Edge;

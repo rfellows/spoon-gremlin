@@ -50,15 +50,15 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.pentaho</groupId>
+      <groupId>pentaho</groupId>
       <artifactId>pentaho-metaverse-api</artifactId>
       <version>${project.version}</version>
       <type>bundle</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.pentaho</groupId>
-      <artifactId>pentaho-metaverse-ee</artifactId>
+      <groupId>pentaho</groupId>
+      <artifactId>pentaho-metaverse-core</artifactId>
       <version>${project.version}</version>
       <type>bundle</type>
       <scope>provided</scope>

@@ -23,17 +23,17 @@
 package com.pentaho.metaverse.gremlin;
 
 import com.google.common.collect.Lists;
-import com.pentaho.dictionary.DictionaryConst;
-import com.pentaho.metaverse.api.IDocument;
-import com.pentaho.metaverse.api.Namespace;
-import com.pentaho.metaverse.client.LineageClient;
-import com.pentaho.metaverse.graph.LineageGraphMap;
+import org.pentaho.dictionary.DictionaryConst;
+import org.pentaho.metaverse.api.IDocument;
+import org.pentaho.metaverse.api.Namespace;
+import org.pentaho.metaverse.client.LineageClient;
+import org.pentaho.metaverse.graph.LineageGraphMap;
 import com.pentaho.metaverse.gremlin.event.GremlinConsoleEvent;
 import com.pentaho.metaverse.gremlin.event.GremlinConsoleEventListener;
 import com.pentaho.metaverse.gremlin.views.GraphCanvasComposite;
 import com.pentaho.metaverse.gremlin.views.GraphElementTableComposite;
 import com.pentaho.metaverse.gremlin.views.PropertiesTableComposite;
-import com.pentaho.metaverse.util.MetaverseUtil;
+import org.pentaho.metaverse.util.MetaverseUtil;
 import com.tinkerpop.blueprints.Graph;
 import com.tinkerpop.blueprints.Vertex;
 import com.tinkerpop.blueprints.impls.tg.TinkerGraph;
