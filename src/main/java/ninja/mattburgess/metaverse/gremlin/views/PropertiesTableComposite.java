@@ -1,7 +1,6 @@
-package com.pentaho.metaverse.gremlin.views;
+package ninja.mattburgess.metaverse.gremlin.views;
 
-import com.pentaho.metaverse.gremlin.GremlinConsoleUtils;
-import com.pentaho.metaverse.gremlin.event.GremlinConsoleEvent;
+import ninja.mattburgess.metaverse.gremlin.GremlinConsoleUtils;
 import com.tinkerpop.blueprints.Vertex;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.FormData;

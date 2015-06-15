@@ -1,4 +1,4 @@
-package com.pentaho.metaverse.gremlin;
+package ninja.mattburgess.metaverse.gremlin;
 
 import org.pentaho.dictionary.DictionaryConst;
 import org.pentaho.dictionary.DictionaryHelper;

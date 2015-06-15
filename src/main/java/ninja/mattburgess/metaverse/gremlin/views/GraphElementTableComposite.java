@@ -1,8 +1,7 @@
-package com.pentaho.metaverse.gremlin.views;
+package ninja.mattburgess.metaverse.gremlin.views;
 
 import org.pentaho.dictionary.DictionaryConst;
-import com.pentaho.metaverse.gremlin.GremlinConsoleUtils;
-import com.pentaho.metaverse.gremlin.event.GremlinConsoleEvent;
+import ninja.mattburgess.metaverse.gremlin.GremlinConsoleUtils;
 import com.tinkerpop.blueprints.Graph;
 import com.tinkerpop.blueprints.Vertex;
 import org.eclipse.swt.SWT;
@@ -13,15 +12,8 @@ import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.layout.FormData;
 import org.eclipse.swt.layout.FormLayout;
 import org.eclipse.swt.widgets.Composite;
-import org.eclipse.swt.widgets.Event;
-import org.eclipse.swt.widgets.Listener;
-import org.eclipse.swt.widgets.Table;
-import org.eclipse.swt.widgets.TableColumn;
 import org.eclipse.swt.widgets.TableItem;
-import org.pentaho.di.core.Const;
 import org.pentaho.di.core.Props;
-import org.pentaho.di.core.RowMetaAndData;
-import org.pentaho.di.core.exception.KettleValueException;
 import org.pentaho.di.core.variables.Variables;
 import org.pentaho.di.ui.core.PropsUI;
 import org.pentaho.di.ui.core.widget.ColumnInfo;

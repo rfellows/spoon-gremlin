@@ -1,4 +1,4 @@
-package com.pentaho.metaverse.gremlin.event;
+package ninja.mattburgess.metaverse.gremlin.event;
 
 
 import org.eclipse.swt.widgets.Event;

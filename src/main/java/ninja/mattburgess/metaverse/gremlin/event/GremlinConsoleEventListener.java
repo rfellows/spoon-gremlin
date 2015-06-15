@@ -1,4 +1,4 @@
-package com.pentaho.metaverse.gremlin.event;
+package ninja.mattburgess.metaverse.gremlin.event;
 
 /**
  * Created by mburgess on 5/18/15.

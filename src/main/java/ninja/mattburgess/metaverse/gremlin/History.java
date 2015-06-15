@@ -20,7 +20,7 @@
  * explicitly covering such access.
  */
 
-package com.pentaho.metaverse.gremlin;
+package ninja.mattburgess.metaverse.gremlin;
 
 import org.pentaho.di.core.Const;
 

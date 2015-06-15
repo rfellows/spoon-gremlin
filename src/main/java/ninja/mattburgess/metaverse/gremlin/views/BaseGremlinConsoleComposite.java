@@ -1,11 +1,8 @@
-package com.pentaho.metaverse.gremlin.views;
+package ninja.mattburgess.metaverse.gremlin.views;
 
-import com.pentaho.metaverse.gremlin.event.GremlinConsoleEvent;
-import com.pentaho.metaverse.gremlin.event.GremlinConsoleEventListener;
-import org.eclipse.swt.events.SelectionEvent;
-import org.eclipse.swt.events.SelectionListener;
+import ninja.mattburgess.metaverse.gremlin.event.GremlinConsoleEvent;
+import ninja.mattburgess.metaverse.gremlin.event.GremlinConsoleEventListener;
 import org.eclipse.swt.widgets.Composite;
-import org.eclipse.swt.widgets.Event;
 
 import java.util.ArrayList;
 import java.util.List;

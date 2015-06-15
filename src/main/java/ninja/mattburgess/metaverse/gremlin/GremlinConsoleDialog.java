@@ -20,7 +20,7 @@
  * explicitly covering such access.
  */
 
-package com.pentaho.metaverse.gremlin;
+package ninja.mattburgess.metaverse.gremlin;
 
 import com.google.common.collect.Lists;
 import org.pentaho.dictionary.DictionaryConst;
@@ -28,11 +28,11 @@ import org.pentaho.metaverse.api.IDocument;
 import org.pentaho.metaverse.api.Namespace;
 import org.pentaho.metaverse.client.LineageClient;
 import org.pentaho.metaverse.graph.LineageGraphMap;
-import com.pentaho.metaverse.gremlin.event.GremlinConsoleEvent;
-import com.pentaho.metaverse.gremlin.event.GremlinConsoleEventListener;
-import com.pentaho.metaverse.gremlin.views.GraphCanvasComposite;
-import com.pentaho.metaverse.gremlin.views.GraphElementTableComposite;
-import com.pentaho.metaverse.gremlin.views.PropertiesTableComposite;
+import ninja.mattburgess.metaverse.gremlin.event.GremlinConsoleEvent;
+import ninja.mattburgess.metaverse.gremlin.event.GremlinConsoleEventListener;
+import ninja.mattburgess.metaverse.gremlin.views.GraphCanvasComposite;
+import ninja.mattburgess.metaverse.gremlin.views.GraphElementTableComposite;
+import ninja.mattburgess.metaverse.gremlin.views.PropertiesTableComposite;
 import org.pentaho.metaverse.util.MetaverseUtil;
 import com.tinkerpop.blueprints.Graph;
 import com.tinkerpop.blueprints.Vertex;

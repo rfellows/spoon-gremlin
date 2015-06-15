@@ -2,12 +2,11 @@
 <blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:pen="http://www.pentaho.com/xml/schemas/pentaho-blueprint"
-           xmlns:cm="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0"
            xsi:schemaLocation="
             http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
             http://www.pentaho.com/xml/schemas/pentaho-blueprint http://www.pentaho.com/xml/schemas/pentaho-blueprint.xsd">
 
-  <bean id="GremlinSpoonPlugin" scope="singleton" class="com.pentaho.metaverse.gremlin.GremlinSpoonPlugin">
+  <bean id="GremlinSpoonPlugin" scope="singleton" class="ninja.mattburgess.metaverse.gremlin.GremlinSpoonPlugin">
     <pen:di-plugin type="org.pentaho.di.ui.spoon.SpoonPluginType"/>
   </bean>
 

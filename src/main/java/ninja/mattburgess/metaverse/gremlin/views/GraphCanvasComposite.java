@@ -1,8 +1,8 @@
-package com.pentaho.metaverse.gremlin.views;
+package ninja.mattburgess.metaverse.gremlin.views;
 
 import com.google.common.collect.Lists;
 import org.pentaho.dictionary.DictionaryConst;
-import com.pentaho.metaverse.gremlin.GremlinConsoleUtils;
+import ninja.mattburgess.metaverse.gremlin.GremlinConsoleUtils;
 import com.tinkerpop.blueprints.Direction;
 import com.tinkerpop.blueprints.Edge;
 import com.tinkerpop.blueprints.Graph;
@@ -15,7 +15,6 @@ import org.eclipse.swt.events.MouseEvent;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.graphics.Color;
-import org.eclipse.swt.layout.FormData;
 import org.eclipse.swt.layout.FormLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Menu;
